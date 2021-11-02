@@ -1,0 +1,13 @@
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 30px;
+    align-items: center;
+}
+
+p {
+    width: 60%;
+    margin: auto;
+    font-size: 17px;
+
+}

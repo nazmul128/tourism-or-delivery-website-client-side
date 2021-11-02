@@ -1,0 +1,42 @@
+.service img {
+    height: 400px;
+    width: 450px;
+}
+.Name{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.description {
+    text-align: justify;
+}
+
+.fa{
+    font-size: 15px;
+   
+    margin: 0px 5px;
+    
+}
+
+
+/* Make it responsive */
+@media only screen and (max-width:688px) {
+    .service img {
+        height: 350px;
+        width: 350px;
+    }
+    .Name{
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width:689px) and (max-width: 991px) {
+    .service img {
+        height: 200px;
+        width: 200px;
+    }
+}

@@ -1,0 +1,29 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 5%;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+.fab {
+    color: white;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+
+/* Make it responsive */
+@media only screen and (max-width:688px) {
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width: 991px) {
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

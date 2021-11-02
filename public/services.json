@@ -1,0 +1,74 @@
+[
+    {
+        "key": "1",
+        "name": "Classic Tent",
+        "img": "https://i.ibb.co/bBBnGK0/Classic-Tent.jpg",
+        "Description": "There is a growing trend for eco-friendly, adventures, wildlife snnctuary and other pilgiinage tourism. These tourism products involve visiting and staying in remote areas, frests, deserts and ru=iverside. There is an overall storage of somewhere to stay in crowed tourist destination, expecially in the middle of destination",
+        "person": "1-4 ",
+        "area": "8m2",
+        "classical": "Tent",
+        "zone": "Zone A",
+        "Price":"75",
+        "Rules": "Campsite is opened for vehicle and reception is opened always from 8:00 till 20:00.The earliest check in time is 08:00 and latest check out time is 11:30.All roads in the camp site must remain free.Emptying chemical toilets is allowed only on designated place"
+    },
+    {
+        "key": "2",
+        "name": "Tent",
+        "img": "https://i.ibb.co/28MD8Hs/Tent.jpg",
+        "Description": "There is a growing trend for eco-friendly, adventures, wildlife snnctuary and other pilgiinage tourism. These tourism products involve visiting and staying in remote areas, frests, deserts and ru=iverside. There is an overall storage of somewhere to stay in crowed tourist destination, expecially in the middle of destination",
+        "person": "2-5 ",
+        "area": "15m2",
+        "classical": "Tent",
+        "zone": "Zone B",
+        "Price":"90",
+        "Rules": "Campsite is opened for vehicle and reception is opened always from 8:00 till 20:00.The earliest check in time is 08:00 and latest check out time is 11:30.All roads in the camp site must remain free.Emptying chemical toilets is allowed only on designated place"
+    },
+    {
+        "key": "3",
+        "name": "Luxury Tent",
+        "img": "https://i.ibb.co/zZm02V1/Luxery-Tent.jpg",
+        "Description": "There is a growing trend for eco-friendly, adventures, wildlife snnctuary and other pilgiinage tourism. These tourism products involve visiting and staying in remote areas, frests, deserts and ru=iverside. There is an overall storage of somewhere to stay in crowed tourist destination, expecially in the middle of destination",
+        "person": "2-6 ",
+        "area": "30m2",
+        "classical": "Tent",
+        "zone": "Zone B",
+        "Price":"65",
+        "Rules": "Campsite is opened for vehicle and reception is opened always from 8:00 till 20:00.The earliest check in time is 08:00 and latest check out time is 11:30.All roads in the camp site must remain free.Emptying chemical toilets is allowed only on designated place"
+    },
+    {
+        "key": "4",
+        "name": "Cabin Trailer",
+        "img": "https://i.ibb.co/9Hhhqvk/Cabin-Trailer.jpg",
+        "Description": "There is a growing trend for eco-friendly, adventures, wildlife snnctuary and other pilgiinage tourism. These tourism products involve visiting and staying in remote areas, frests, deserts and ru=iverside. There is an overall storage of somewhere to stay in crowed tourist destination, expecially in the middle of destination",
+        "person": "2-4",
+        "area": "12m2",
+        "classical": "Tent",
+        "zone": "Zone A",
+        "Price":"82",
+        "Rules": "Campsite is opened for vehicle and reception is opened always from 8:00 till 20:00.The earliest check in time is 08:00 and latest check out time is 11:30.All roads in the camp site must remain free.Emptying chemical toilets is allowed only on designated place"
+    },
+    {
+        "key": "5",
+        "name": "Motorhome",
+        "img": "https://i.ibb.co/9Hhhqvk/Cabin-Trailer.jpg",
+        "Description": "There is a growing trend for eco-friendly, adventures, wildlife snnctuary and other pilgiinage tourism. These tourism products involve visiting and staying in remote areas, frests, deserts and ru=iverside. There is an overall storage of somewhere to stay in crowed tourist destination, expecially in the middle of destination",
+        "person": "2-5",
+        "area": "16m2",
+        "classical": "Cabin",
+        "zone": "Zone B",
+        "Price":"89",
+        "Rules": "Campsite is opened for vehicle and reception is opened always from 8:00 till 20:00.The earliest check in time is 08:00 and latest check out time is 11:30.All roads in the camp site must remain free.Emptying chemical toilets is allowed only on designated place"
+    },
+    {
+        "key": "6",
+        "name": "Small Trailer",
+        "img": "https://i.ibb.co/zGDVFpC/Small-Trailer6.jpg",
+        "Description": "There is a growing trend for eco-friendly, adventures, wildlife snnctuary and other pilgiinage tourism. These tourism products involve visiting and staying in remote areas, frests, deserts and ru=iverside. There is an overall storage of somewhere to stay in crowed tourist destination, expecially in the middle of destination",
+        "person": "1-3",
+        "area": "12m2",
+        "classical": "Cabin",
+        "zone": "Zone A",
+        "Price":"80",
+        "Rules": "Campsite is opened for vehicle and reception is opened always from 8:00 till 20:00.The earliest check in time is 08:00 and latest check out time is 11:30.All roads in the camp site must remain free.Emptying chemical toilets is allowed only on designated place"
+    }
+]

@@ -1,0 +1,20 @@
+.Details{
+   
+    width: 700px;
+}
+
+.name{
+    display: flex;
+    margin:0px 10%;
+}
+.Details img{
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+}
+.des{
+    text-align: justify;
+}
+.Rules{
+    text-align: justify;
+}
