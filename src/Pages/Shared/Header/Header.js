@@ -30,18 +30,18 @@ const Header = () => {
                         {
                             user.email ?
                                 <Dropdown>
-                                    <Dropdown.Toggle variant="warning" id="dropdown-basic" className="text-white fw-bold ms-3 text-center">
+                                    <Dropdown.Toggle variant="primary" id="dropdown-basic" className="text-white fw-bold ms-3 text-center">
                                         Profile
                                     </Dropdown.Toggle>
                                     <Dropdown.Menu className="bg-light">
-                                        <Dropdown.Item><NavLink className="text-decoration-none text-success" to="/MyBooking/:email">My Booking</NavLink></Dropdown.Item>
-                                        <Dropdown.Item><NavLink className="text-decoration-none text-success" to="/booking">Manage Booking</NavLink></Dropdown.Item>
-                                        <Dropdown.Item><NavLink className="text-decoration-none text-success" to="/add">Add a new Tour</NavLink></Dropdown.Item>
-                                        <Dropdown.Item onClick={logOut} className="text-success">Sign Out</Dropdown.Item>
+                                        <Dropdown.Item><NavLink className="text-decoration-none text-primary" to="/MyBooking/:email">My Booking</NavLink></Dropdown.Item>
+                                        <Dropdown.Item><NavLink className="text-decoration-none text-primary" to="/booking">Manage Booking</NavLink></Dropdown.Item>
+                                        <Dropdown.Item><NavLink className="text-decoration-none text-primary" to="/add">Add a new Tour</NavLink></Dropdown.Item>
+                                        <Dropdown.Item onClick={logOut} className="text-primary">Sign Out</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
                                 :
-                                <NavLink className="text-decoration-none text-white fs-6 ms-3 fw-bold btn btn-warning btn-sm" to="/login">Sign In</NavLink>
+                                <NavLink className="text-decoration-none text-white fs-6 ms-3 fw-bold btn btn-primary btn-sm" to="/login">Sign In</NavLink>
                         }
                     </Navbar.Collapse>
                     
