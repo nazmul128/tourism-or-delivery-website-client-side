@@ -4,7 +4,9 @@ Links:
 
 [Live Server Link](https://tourism-mongodb-website.web.app/)
 
-[Repository Link](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-nazmul128)
+[Server Repository Link](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-nazmul128)
+
+[Client Repository Link](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-nazmul128)
 
 
 * A Multi Page react Application that includes the Tourism informations.
