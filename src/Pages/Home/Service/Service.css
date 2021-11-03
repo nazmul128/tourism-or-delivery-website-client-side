@@ -1,6 +1,6 @@
 .service img {
-    height: 400px;
-    width: 450px;
+    height: 350px;
+    width: 380px;
 }
 
 .description {
@@ -9,7 +9,6 @@
 
 .fa{
     font-size: 15px;
-   
     margin: 0px 5px;
     
 }
