@@ -12,6 +12,8 @@ import Update from './Pages/Home/Booking/Update';
 
 import SingleBooking from './Pages/Home/SingleBooking/SingleBooking';
 import AddTour from './Pages/Home/AddTour/AddTour';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import NotFound from './Pages/Home/NotFound/NotFound';
 
 
 
@@ -28,9 +30,9 @@ function App() {
           <Route path='/home'>
             <Home></Home>
           </Route>
-          <Route path='/details/:id'>
+          <PrivateRoute path='/details/:id'>
             <ServiceDetails></ServiceDetails>
-          </Route>
+          </PrivateRoute>
           <Route path='/booking'>
           <Booking></Booking>
           </Route>
@@ -46,6 +48,9 @@ function App() {
           <Route path='/login'>
             <Login></Login>
           </Route>
+          <Route path='*'>
+              <NotFound></NotFound>
+            </Route>
         </Switch>
       </BrowserRouter>
      </AuthProvider>

@@ -2,13 +2,6 @@
     height: 400px;
     width: 450px;
 }
-.Name{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    align-items: center;
-    margin: 0px 10px;
-}
 
 .description {
     text-align: justify;

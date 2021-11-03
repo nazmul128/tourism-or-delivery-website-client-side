@@ -2,6 +2,8 @@ import React from 'react';
 import { getAuth, signInWithPopup, GoogleAuthProvider, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, updateProfile } from "firebase/auth";
 import { useState } from "react";
 import initializeAuthentication from '../Firebase/firebase.init'
+import './Login.css'
+import { Button } from 'react-bootstrap';
 
 
 initializeAuthentication();
@@ -44,8 +46,7 @@ const Login = () => {
     return (
         <div>
             
-           
-            <button onClick={handleGoogleSignIn}>Google Sign In</button>
+            <Button className='google' onClick={handleGoogleSignIn}><i class="fab fa-google"></i>Google Sign In</Button>
         </div>
     );
 };

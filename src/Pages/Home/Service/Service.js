@@ -9,8 +9,8 @@ const Service = (props) => {
     return (
         <div className='service'>
             <img src={img} alt="" />
-          <div className='Name'>
-            <h4 >{name}</h4>
+          <div>
+            <h4 style={{margin:'0px 10px'}}>{name}</h4>
           </div>
             <p className='description'>{Description}</p>
           
