@@ -30,8 +30,8 @@ const ContactUs = () => {
                     <form action="">
                         <p><strong className='text-white me-3'>Name:</strong><input type="name" value="" placeholder="Your Name" /></p>
                         <p><strong className='text-white me-3'>Email:</strong><input type="email" name="" id="" placeholder="Your Email" /></p>
-                        <textarea className='ms-5' name="" placeholder="Write Messege" id="" cols="30" rows="3"></textarea><br />
-                        <Button>Send us messege</Button>
+                        <textarea className='ms-5' name="" placeholder="Write Message" id="" cols="30" rows="3"></textarea><br />
+                        <Button>Send us message</Button>
                     </form>
                 </div>
             </div>
