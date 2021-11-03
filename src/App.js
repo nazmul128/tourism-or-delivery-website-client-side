@@ -14,6 +14,8 @@ import SingleBooking from './Pages/Home/SingleBooking/SingleBooking';
 import AddTour from './Pages/Home/AddTour/AddTour';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import NotFound from './Pages/Home/NotFound/NotFound';
+import ContactUs from './Pages/Home/ContactUs/ContactUs';
+import Campstructure from './Pages/Home/CampStructure/Campstructure';
 
 
 
@@ -47,6 +49,12 @@ function App() {
           </Route>
           <Route path='/login'>
             <Login></Login>
+          </Route>
+          <Route path='/contact'>
+           <ContactUs></ContactUs>
+          </Route>
+          <Route path='/camp'>
+          <Campstructure></Campstructure>
           </Route>
           <Route path='*'>
               <NotFound></NotFound>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import './Campstructure.css'
 
 const Campstructure = () => {
@@ -56,6 +57,7 @@ const Campstructure = () => {
 
 
             </div>
+            <Footer></Footer>
         </div >
     );
 };
